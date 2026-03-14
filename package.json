@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun run index.ts",
-    "dev": "bun --match run index.ts",
-    "build": "tsc && mkdir -p dist && cp -r public dist/"
+    "dev": "bun --match run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
